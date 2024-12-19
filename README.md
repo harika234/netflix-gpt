@@ -15,6 +15,8 @@
 - Created redux store with userslice
 -Implemented sign out
 -update profile api by firebase api
+-bug fix : sign up user displayname and profile pic update
+
 
 # for routes 
 install react router dom
