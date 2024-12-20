@@ -8,7 +8,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import {  updateProfile } from "firebase/auth";
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice'
-import {USER_AVATAR} from '../utils/constants';
+import {BG_URL, USER_AVATAR} from '../utils/constants';
 const Login = () => {
     const[isSignInForm,setIsSignInForm] = useState(true);
     
@@ -82,7 +82,7 @@ const Login = () => {
     <div>
         <Header/>
         <div className='absolute'>
-            <img src = "https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224740-3441109.png"
+            <img src = {BG_URL}
             alt = "netflix background image"
             />
         </div>

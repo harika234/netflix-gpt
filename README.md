@@ -29,3 +29,13 @@ in the file use createBrowserRouter
         -Trailer in background
         -Title & Description
 
+
+# new feature
+-netflix gpt search page
+- we will use  gpt as a movie recommendation system.
+
+- GPT SEARCH FEAUTURE
+- GPT search page, gpt search bar
+- (feature)multi - language feature in this app
+- ()
+
