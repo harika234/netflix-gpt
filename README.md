@@ -39,3 +39,7 @@ in the file use createBrowserRouter
 - (feature)multi - language feature in this app
 - ()
 
+
+# fetching gpt api
+
+open ai package NPM Library : this will give helper function that will help us to make api calls.
